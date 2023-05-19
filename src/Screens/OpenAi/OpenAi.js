@@ -23,7 +23,7 @@ const OpenAi = () => {
       .then((res) => {
         console.log(res.data.choices[0].message.content);
         setresponce(res.data.choices[0].message.content);
-        console.log("qqqqqqqqqqqqqqqq", responce);
+        console.log("api responce", responce);
       });
   };
 
