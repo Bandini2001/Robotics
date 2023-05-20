@@ -49,8 +49,8 @@ function Article() {
         <button onClick={handleButtonClick}>Send</button>
       </div>
       <div className="col-12 col-lg-7  userinput">
-        <h1 className="explore">Explore Shared information </h1>
-        <h1 className="explore">by the peaple</h1>
+        <h1 className="explore">Explore Shared information by the peaple </h1>
+    
 
         <div>
           {inputArray.map((obj, index) => (

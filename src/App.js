@@ -7,6 +7,7 @@ import About from "./Screens/About/About";
 import Contact from "./Screens/Contact/Contact";
 import OpenAi from "./Screens/OpenAi/OpenAi";
 import Article from "./Screens/Article/Article";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/openAi" element={<OpenAi />} />
         <Route path="/article" element={<Article />} />
       </Routes>
+        <Footer/>
     </div>
   );
 };

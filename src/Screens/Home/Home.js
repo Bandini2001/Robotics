@@ -59,7 +59,7 @@ function Home() {
             right decision when introducing them in a factory or company.
           </p>
         </div>
-        <div className="col-12 col-lg-5 header-right-side ">
+        <div className="col-12 col-lg-5 header-right-side  ">
           <div className="right-scr ">
             <h2 className="rt-title ">Open AI</h2>
             <Button className="OpenAi-btn" onClick={() => navigate("/OpenAi")}>
@@ -67,7 +67,6 @@ function Home() {
             </Button>
           </div>
           <div className="videofile">
-            
             <ReactPlayer
               className="react-player"
               url={videoLink}
@@ -75,7 +74,12 @@ function Home() {
               controls={true}
             />
           </div>
-          <Button onClick={() => navigate("/article")} className="articlebtn">search article</Button>
+          <div className="articleSection">
+            <h3 style={{color:'white'}}> Go public to share and get information about new technology</h3>
+            <Button onClick={() => navigate("/article")} className="articlebtn">
+              search article
+            </Button>
+          </div>
         </div>
       </div>
     </div>

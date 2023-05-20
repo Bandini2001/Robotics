@@ -1,0 +1,10 @@
+.headind{
+    text-align: center;
+    color: white;   
+}
+.discription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}

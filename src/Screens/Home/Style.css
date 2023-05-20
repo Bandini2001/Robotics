@@ -69,7 +69,13 @@ span{
   width: 100%;
 }
 
+.articleSection{
+  display: flex;
+  /* justify-content: flex-end; */
+  margin-top: 70px;
+  flex-direction: column;
+}
+
 .articlebtn{
-  align-items: flex-end;
-  margin-top: 10px;
+  margin-top: 20px;
 }

@@ -12,8 +12,8 @@ code {
     monospace;
 } */
 
-.bg{
-  background-image: url('./images/bg1.jpg');
+.bg {
+  background-image: url("./images/bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,4 +28,74 @@ code {
 .navbar li a:hover {
   color: rgb(63, 110, 211) !important ;
   text-shadow: 0 0.2rem 0.3rem;
+}
+
+/*footer*/
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 28px;
+  background-color: rgb(34, 33, 34);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Footer left section */
+.footer__left {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.footer__logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer__description {
+  color: white;
+}
+
+.footer__social {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-link {
+  color: #999;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Footer right section */
+.footer__right {
+  flex: 1;
+}
+
+.footer__nav-list{
+  margin-top: 20px;
+  
+}
+
+.footer__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer__form {
+  display: flex;
+}
+
+.footer__input {
+  flex: 1;
+}
+
+.footer__copy{
+  color:white
 }
