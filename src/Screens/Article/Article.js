@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Style.css";
+import { Button } from "react-bootstrap";
 
 function Article() {
   const [inputArray, setInputArray] = useState([]);
@@ -46,18 +47,17 @@ function Article() {
           onChange={handleInput2Change}
           placeholder="write our thoughts"
         />
-        <button onClick={handleButtonClick}>Send</button>
+        <Button onClick={() => handleButtonClick()}>POST</Button>
       </div>
       <div className="col-12 col-lg-7  userinput">
         <h1 className="explore">Explore Shared information by the peaple </h1>
-    
 
-        <div>
+        <div className="article11">
           {inputArray.map((obj, index) => (
-            <p newObj={index}>{obj.input1} </p>
-          ))}
-          {inputArray.map((obj, index) => (
-            <p newObj={index}>{obj.input2} </p>
+            <p newObj={index}>
+              <div className="userName">{obj.input1}</div>
+              <div className="theirArticle">{obj.input2}</div>
+            </p>
           ))}
         </div>
       </div>

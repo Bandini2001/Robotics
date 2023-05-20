@@ -1,17 +1,14 @@
-.ArticlePage {
-  height: 100vh;
-}
-
 .userinput {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .name {
   margin: 10px;
-  background-color: transparent;
+  background-color: rgb(90, 84, 84);
   color: white;
   width: 45%;
 }
@@ -21,7 +18,7 @@
 
 .article {
   margin: 10px;
-  background-color: transparent;
+  background-color: rgb(90, 84, 84);
   color: white;
   width: 85%;
   height: 150px;
@@ -45,4 +42,22 @@
 .userinput{
   text-align: center;
 
+}
+
+.article11{
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.userName{
+  background-color:rgb(161, 149, 95);
+  text-align: left;
+  padding: 10px;
+}
+
+.theirArticle{
+  text-align: left;
+  padding: 10px;
 }
