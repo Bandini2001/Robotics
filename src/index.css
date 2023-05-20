@@ -32,9 +32,11 @@ code {
 
 /*footer*/
 .container {
+  height: 400px;
   max-width: 100%;
   margin: 0;
   padding: 28px;
+ 
   background-color: rgb(34, 33, 34);
 }
 
@@ -68,7 +70,7 @@ code {
 }
 
 .footer__social-link {
-  color: #999;
+  color: #f4f2f2;
   font-size: 20px;
   margin-right: 10px;
 }
@@ -79,13 +81,16 @@ code {
 }
 
 .footer__nav-list{
-  margin-top: 20px;
+ 
+  margin-left: 400px;
   
 }
 
 .footer__title {
   font-size: 20px;
   margin-bottom: 10px;
+  color: azure;
+  margin-right: 300px;
 }
 
 .footer__form {
@@ -93,9 +98,47 @@ code {
 }
 
 .footer__input {
-  flex: 1;
+  width: 300px;
 }
 
 .footer__copy{
-  color:white
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 15px;
+  margin-bottom: 0%;
+  
+}
+
+
+
+.dev{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #363434;
+}
+.dev-list{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  text-decoration: none !important;
+  color: white;
+
+}
+.footer__nav-link{
+  color: azure;
+  text-decoration: none !important;
+}
+.footer__button{
+  color: white;
+  background-color: red;
+border-radius: 3px;
+margin-left: 10px;
+}
+.h3{
+  color: white;
+  margin-top: 20px;
 }
