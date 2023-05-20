@@ -75,7 +75,7 @@ function Home() {
               controls={true}
             />
           </div>
-          <Button onClick={() => navigate("/article")}>search article</Button>
+          <Button onClick={() => navigate("/article")} className="articlebtn">search article</Button>
         </div>
       </div>
     </div>

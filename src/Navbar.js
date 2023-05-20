@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [slider, setslider] = useState(false);
@@ -11,7 +11,8 @@ function Navbar() {
           <div class="container-fluid">
             <div>
               <img
-                src={require("./images/logo.png")} alt="logo"
+                src={require("./images/logo.png")}
+                alt="logo"
                 style={{ width: "50px" }}
               />
               <span class="navbar-brand" href="#">
@@ -38,17 +39,17 @@ function Navbar() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/Services" class="nav-link" >
+                  <Link to="/Services" class="nav-link">
                     Services
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/about" class="nav-link" >
+                  <Link to="/about" class="nav-link">
                     About
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link to="/Contact" class="nav-link" >
+                  <Link to="/Contact" class="nav-link">
                     Contact
                   </Link>
                 </li>

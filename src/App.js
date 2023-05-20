@@ -11,14 +11,14 @@ import Article from "./Screens/Article/Article";
 const App = () => {
   return (
     <div className="bg">
-      <Navbar />
+        <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/openAi" element={<OpenAi />} />
-        <Route path="/article" element={<Article/>}/>
+        <Route path="/article" element={<Article />} />
       </Routes>
     </div>
   );

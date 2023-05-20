@@ -68,3 +68,8 @@ span{
   margin-top: 40px;
   width: 100%;
 }
+
+.articlebtn{
+  align-items: flex-end;
+  margin-top: 10px;
+}
