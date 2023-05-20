@@ -93,7 +93,7 @@ const Footer = () => {
                   href="https://github.com/bobadeganesh"
                   className="footer__social-link"
                 >
-                  Mahesh<i className="fab fa-instagram"></i>
+                  Ganesh<i className="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
