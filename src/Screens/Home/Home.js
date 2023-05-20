@@ -2,9 +2,12 @@ import React from "react";
 import "./Style.css";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
+import ReactPlayer from "react-player";
 
 function Home() {
   const navigate = useNavigate();
+  const videoLink =
+    "https://www.youtube.com/watch?v=UwsrzCVZAb8&t=24s&ab_channel=YouTubeOriginals";
 
   return (
     <div className="custom-header">
@@ -64,7 +67,13 @@ function Home() {
             </Button>
           </div>
           <div className="videofile">
-            <video controls></video>
+            
+            <ReactPlayer
+              className="react-player"
+              url={videoLink}
+              width="100%"
+              controls={true}
+            />
           </div>
           <Button onClick={() => navigate("/article")}>search article</Button>
         </div>
