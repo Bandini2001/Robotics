@@ -15,12 +15,11 @@ const Footer = () => {
             <p className="footer__description">
               Explore the fascinating world of robotics.
             </p>
-           
           </div>
           <div className="footer__right">
             <h3 className="footer__title">Subscribe to our Newsletter</h3>
             <form className="footer__form">
-              <input
+              <input 
                 type="email"
                 placeholder="Enter your email"
                 className="footer__input"
@@ -32,7 +31,6 @@ const Footer = () => {
             <div>
             <nav className="footer__nav">
              <h4 className="h3">Quick links</h4>
-               
                   <a href="/" className="footer__nav-link">
                     Home
                   </a>
@@ -51,7 +49,6 @@ const Footer = () => {
                   <a href="/contact" className="footer__nav-link">
                     Contact
                   </a>
-             
             </nav>
            </div>
           </div>
@@ -97,7 +94,6 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-
         <p className="footer__copy">
           &copy; 2023 Robotics Website. All rights reserved.
         </p>

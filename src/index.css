@@ -36,7 +36,6 @@ code {
   max-width: 100%;
   margin: 0;
   padding: 28px;
- 
   background-color: rgb(34, 33, 34);
 }
 
@@ -67,6 +66,7 @@ code {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .footer__social-link {
@@ -78,6 +78,7 @@ code {
 /* Footer right section */
 .footer__right {
   flex: 1;
+  width:100%;
 }
 
 .footer__nav-list{
@@ -95,6 +96,7 @@ code {
 
 .footer__form {
   display: flex;
+  width: 50%;
 }
 
 .footer__input {
@@ -123,10 +125,10 @@ code {
 .dev-list{
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content:space-around; 
   text-decoration: none !important;
   color: white;
-
+  width: 100%;
 }
 .footer__nav-link{
   color: azure;
@@ -141,4 +143,10 @@ margin-left: 10px;
 .h3{
   color: white;
   margin-top: 20px;
+}
+
+.sticky-top{
+  background-color: #363434;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
 }
